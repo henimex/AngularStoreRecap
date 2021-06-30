@@ -1,0 +1,15 @@
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.csproj.AssemblyReference.cache
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.AssemblyInfoInputs.cache
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.AssemblyInfo.cs
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.csproj.CoreCompileInputs.cache
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\Repo.deps.json
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\Repo.dll
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\ref\Repo.dll
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\Repo.pdb
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\Core.dll
+E:\Apps\Angular\UdemyDemo\alise\Repo\bin\Debug\net5.0\Core.pdb
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.csproj.CopyComplete
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.dll
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\ref\Repo.dll
+E:\Apps\Angular\UdemyDemo\alise\Repo\obj\Debug\net5.0\Repo.pdb

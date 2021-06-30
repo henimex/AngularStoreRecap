@@ -464,6 +464,30 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repo.dll": {}
+        }
       }
     }
   },
@@ -1245,12 +1269,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Repo/1.0.0": {
+      "type": "project",
+      "path": "../Repo/Repo.csproj",
+      "msbuildProject": "../Repo/Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.7",
+      "Repo >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -1287,7 +1322,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+              "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+            },
+            "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+              "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1303,10 +1345,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.7, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.7, )"
           },
