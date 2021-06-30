@@ -1251,7 +1251,6 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Sqlite.Core >= 5.0.7",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -1311,10 +1310,6 @@
             "version": "[5.0.7, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
-            "target": "Package",
-            "version": "[5.0.7, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": {
             "target": "Package",
             "version": "[5.0.7, )"
           },

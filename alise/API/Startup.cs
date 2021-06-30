@@ -30,7 +30,7 @@ namespace API
         {
 
             services.AddControllers();
-            services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("Default")));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
