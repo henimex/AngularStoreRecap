@@ -1255,35 +1255,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\J.Henimex\\.nuget\\packages\\": {},
-    "D:\\Programs\\MVS Data\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\HenimeX\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+      "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-      "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\obj\\",
+      "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+      "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
