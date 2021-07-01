@@ -1,40 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {}
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-        "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\obj\\",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+              },
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,10 +56,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.7, )"
             },
@@ -76,6 +78,136 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
+        "projectName": "Repo",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

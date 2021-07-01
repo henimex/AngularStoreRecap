@@ -1,0 +1,12 @@
+E:\Apps\Angular\UdemyDemo\alise\Core\bin\Debug\net5.0\Core.deps.json
+E:\Apps\Angular\UdemyDemo\alise\Core\bin\Debug\net5.0\Core.dll
+E:\Apps\Angular\UdemyDemo\alise\Core\bin\Debug\net5.0\ref\Core.dll
+E:\Apps\Angular\UdemyDemo\alise\Core\bin\Debug\net5.0\Core.pdb
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.dll
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\ref\Core.dll
+E:\Apps\Angular\UdemyDemo\alise\Core\obj\Debug\net5.0\Core.pdb

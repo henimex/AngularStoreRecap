@@ -464,6 +464,30 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.7"
+        },
+        "compile": {
+          "bin/placeholder/Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repo.dll": {}
+        }
       }
     }
   },
@@ -1245,52 +1269,67 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Repo/1.0.0": {
+      "type": "project",
+      "path": "../Repo/Repo.csproj",
+      "msbuildProject": "../Repo/Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.7",
+      "Repo >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\J.Henimex\\.nuget\\packages\\": {},
-    "D:\\Programs\\MVS Data\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\HenimeX\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+      "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-      "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\obj\\",
+      "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+      "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+              "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+            },
+            "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+              "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1306,10 +1345,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.7, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.7, )"
           },
