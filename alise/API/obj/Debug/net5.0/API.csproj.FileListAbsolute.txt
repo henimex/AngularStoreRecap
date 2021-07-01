@@ -118,3 +118,7 @@ E:\Apps\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Core.dll
 E:\Apps\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Repo.dll
 E:\Apps\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Repo.pdb
 E:\Apps\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Core.pdb
+D:\Education\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Core.dll
+D:\Education\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Repo.dll
+D:\Education\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Repo.pdb
+D:\Education\Angular\UdemyDemo\alise\API\bin\Debug\net5.0\Core.pdb
