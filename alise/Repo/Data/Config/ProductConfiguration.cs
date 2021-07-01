@@ -12,6 +12,9 @@ namespace Repo.Data.Config
             builder.Property(x=>x.Name).IsRequired().HasMaxLength(100);
             builder.Property(x=>x.Description).IsRequired();
             builder.Property(x=>x.Price).IsRequired().HasColumnType("decimal(18,2)");
+            builder.Property(x=>x.PictureUrl).IsRequired();
+            builder.HasOne(b=>b.ProductBrand).WithMany().HasForeignKey(x=>x.ProductBrandId);
+            builder.HasOne(t=>t.ProductType).WithMany().HasForeignKey(x=>x.ProductTypeId);
         }
     }
 }

@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {}
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-        "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\API\\obj\\",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -35,11 +34,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
-                "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
               },
-              "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
-                "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj"
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj"
               }
             }
           }
@@ -87,30 +86,29 @@
         }
       }
     },
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-        "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\obj\\",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -148,30 +146,29 @@
         }
       }
     },
-    "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
+    "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
+        "projectUniqueName": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
         "projectName": "Repo",
-        "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
-        "packagesPath": "C:\\Users\\J.Henimex\\.nuget\\packages\\",
-        "outputPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Repo\\obj\\",
+        "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\Repo.csproj",
+        "packagesPath": "C:\\Users\\HenimeX\\.nuget\\packages\\",
+        "outputPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programs\\MVS Data\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\J.Henimex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HenimeX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -179,8 +176,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
-                "projectPath": "D:\\Education\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
+              "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj": {
+                "projectPath": "E:\\Apps\\Angular\\UdemyDemo\\alise\\Core\\Core.csproj"
               }
             }
           }
