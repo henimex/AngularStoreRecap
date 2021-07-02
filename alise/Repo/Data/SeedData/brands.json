@@ -1,34 +1,26 @@
 [
-    {
-        "Id": 1,
-        "Name": "Samsung"
-    },
-    {
-        "Id": 2,
-        "Name": "Apple"
-    },
-    {
-        "Id": 3,
-        "Name": "Huwai"
-    },
-    {
-        "Id": 4,
-        "Name": "Philips"
-    },
-    {
-        "Id": 5,
-        "Name": "Woon"
-    },
-    {
-        "Id": 6,
-        "Name": "LG"
-    },
-    {
-        "Id": 7,
-        "Name": "Mi Products"
-    },
-    {
-        "Id": 8,
-        "Name": "Motorola"
-    }
+  {
+    "Id": 1,
+    "Name": "Samsung"
+  },
+  {
+    "Id": 2,
+    "Name": "LG"
+  },
+  {
+    "Id": 3,
+    "Name": "Philips"
+  },
+  {
+    "Id": 4,
+    "Name": "Woon"
+  },
+  {
+    "Id": 5,
+    "Name": "Vestel"
+  },
+  {
+    "Id": 6,
+    "Name": "Arçelik"
+  }
 ]

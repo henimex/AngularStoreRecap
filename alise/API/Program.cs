@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Repo.Data;
+using Repo.Data.SeedData;
 
 namespace API
 {
@@ -26,6 +27,7 @@ namespace API
                 {
                     var context = services.GetRequiredService<StoreContext>();
                     await context.Database.MigrateAsync();
+                    await StoreContextSeed.SeedAsync(context,loggerFactory);
                 }
                 catch (Exception exception)
                 {
