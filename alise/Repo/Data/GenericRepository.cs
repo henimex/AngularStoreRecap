@@ -38,6 +38,7 @@ namespace Repo.Data
 
         private IQueryable<T> ApplySpecification(ISpecification<T> spec)
         {
+            //Hate This
             return SpecificationDriver<T>.GetQueryable(_context.Set<T>().AsQueryable(),spec);
         }
     }
